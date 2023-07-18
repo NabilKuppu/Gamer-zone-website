@@ -67,13 +67,11 @@ nav {
 }
 .goat-container {
   max-width: 1440px;
-  /* height: 500px; */
-
   margin: 50px auto 0px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   justify-content: space-evenly;
+  padding-left: 5px;
 }
 .goat-text-container {
   width: 50%;
@@ -139,3 +137,76 @@ nav {
   max-width: 100%;
 }
 /* Ending oF  Goat section-01 */
+/* Begining of Gamer Section */
+
+.primary-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.primary-description {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-primary {
+  background-color: #ff42a5;
+  color: white;
+  padding: 20px 40px;
+  margin: 20px 0;
+  border-radius: 100px;
+  border: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Gammer Section */
+#gammer-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding: 50px 5px 0px;
+}
+
+.gammer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0px auto;
+  padding-top: 25px;
+  gap: 20px;
+}
+.gammer-image {
+  width: 50%;
+}
+.gammer-image img {
+  max-width: 100%;
+}
+
+.gammer-content {
+  width: 60%;
+  text-align: right;
+}
+
+.gammer-content .primary-description {
+  color: #534c64;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.gammer-content .qutue {
+  color: #534c64;
+  font-size: 32px;
+  font-weight: 700;
+}
+/* Ending of Gamer Section */
