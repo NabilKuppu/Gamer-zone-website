@@ -1,4 +1,5 @@
 @media screen and (max-width: 425px) {
+  /* Begining of Navbar */
   .nav-container {
     flex-direction: column;
     align-items: center;
@@ -15,4 +16,5 @@
   .nav-text-container a {
     margin-top: 25px;
   }
+  /* Ending of Navbar */
 }
