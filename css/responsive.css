@@ -4,6 +4,9 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    height: 250px;
+    gap: 30px;
+    margin: 30px 0;
   }
   .nav-logo-container {
     width: 100%;
@@ -16,5 +19,60 @@
   .nav-text-container a {
     margin-top: 25px;
   }
+  .nav-logo-container {
+    font-size: 2.5rem;
+    text-align: center;
+  }
   /* Ending of Navbar */
+  /* Begining Of Goat Section */
+
+  .goat-container {
+    max-width: 425px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .goat-text-container {
+    width: 100%;
+    /* height: 400px; */
+    background-image: linear-gradient(
+      223deg,
+      rgba(140, 87, 238, 0.03) 0%,
+      rgba(241, 68, 174, 0.03) 100%
+    );
+    text-align: center;
+  }
+  .goat-text-container h1 {
+    color: #0b0223;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .goat-item p {
+    color: #534c64;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-left: 100px;
+    text-align: left;
+  }
+  .btn-sign-in {
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .btn-go-rogue {
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .goat-img-container {
+    width: 100%;
+  }
+  .goat-img-container img {
+    background-clip: border-box;
+    padding: 10px;
+    max-width: 100%;
+  }
+  /* Ending Of Goat Section */
 }
